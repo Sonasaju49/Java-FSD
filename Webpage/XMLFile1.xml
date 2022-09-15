@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<employee>
+		<name>sona</name>
+		<uid>235771</uid>
+		<location>Kochi</location>
+		<role>software developer</role>
+	</employee>
+	<employee>
+		<name>chinnu</name>
+		<uid>345666</uid>
+		<location>Banglore</location>
+		<role>software testing</role>
+		
+	</employee>
+	<ceo>
+		<name>Annmary</name>
+		<uid>56789</uid>
+		<location>Trivandrum</location>
+	</ceo>
+</root>
