@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JS Matrix Transpose</h1>
+
+<script>
+var i, j, n;
+var arr = [
+ [1, 1, 1],
+ [9, 8, 2],
+ [1, 5, 3]
+];
+
+document.write("Matrix A (3 x 3):<br>");
+for(i=0; i<3; i++)
+{
+ for(j=0; j<3; j++)
+  document.write(arr[i][j] +" ");
+ document.write("<br>");
+}
+
+for(i=0; i<3; i++)
+{
+ for(j=i+1; j<3; j++)
+ {
+  n = arr[i][j];
+  arr[i][j] = arr[j][i];
+  arr[j][i] = n;
+ }
+}
+
+document.write("Transposed Matrix:<br>");
+for(i=0; i<3; i++)
+{
+ for(j=0; j<3; j++)
+  document.write(arr[i][j] +" ");
+ document.write("<br>");
+}
+</script>
+</body>
+</html>
